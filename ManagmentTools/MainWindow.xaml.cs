@@ -188,5 +188,10 @@ namespace ManagmentTools
             MessageBox.Show("Your computer will be restarted in 10 seconds.");
             Process.Start("shutdown", "/r /t 10");
         }
+
+        private void Button_Click_10(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(@"C:\Windows\System32\access.cpl") { UseShellExecute = true });
+        }
     }
 }
