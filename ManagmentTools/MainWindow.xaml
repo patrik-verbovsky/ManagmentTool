@@ -35,7 +35,7 @@
         <Button x:Name="locationIn" Content="Location Info" HorizontalAlignment="Left" Margin="200,89,0,0" VerticalAlignment="Top" Width="95" Click="locationIn_Click"/>
         <Button x:Name="security" Content="Security" HorizontalAlignment="Left" Margin="200,64,0,0" VerticalAlignment="Top" Width="95" Click="security_Click"/>
         <Button x:Name="bluetooth" Content="Bluetooth" HorizontalAlignment="Left" Margin="200,39,0,0" VerticalAlignment="Top" Width="95" Click="bluetooth_Click"/>
-        <Button Content="Policy Editor (PO)" HorizontalAlignment="Left" Margin="200,114,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click_7"/>
+        <Button Content="Policy Editor" ToolTip="This feature is only for Windows Pro." HorizontalAlignment="Left" Margin="200,114,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click_7"/>
         <Label Content="Computer Managment Tools (v1.0)" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="10"/>
         <Button Content="Shutdown" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Click="Button_Click_8"/>
         <Button Content="Restart" HorizontalAlignment="Left" Margin="73,0,0,10" VerticalAlignment="Bottom" Click="Button_Click_9"/>
