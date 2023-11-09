@@ -1,0 +1,44 @@
+﻿<Window x:Class="ManagmentTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagmentTools"
+        mc:Ignorable="d"
+        Title="Computer Managment Tools" Height="425" Width="750">
+    <Grid>
+        <Label x:Name="label" Content="Computer Managment" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Foreground="Black" Width="195" Height="34" Margin="33,0,0,0"/>
+        <Image HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="22" Source="/Icons/network-wired-solid.png" Margin="10,10,0,0"/>
+        <Button Content="Control Panel" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click"/>
+        <Button x:Name="notepad" Content="Notepad" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="81" Click="notepad_Click"/>
+        <Button Content="Registry Editor" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="81"/>
+        <Button x:Name="fexp" Content="File Explorer" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Width="81" Click="fexp_Click"/>
+        <Button Content="Terminal" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click_2"/>
+        <Button Content="Web (Chrome)" HorizontalAlignment="Left" Margin="10,184,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click_4"/>
+        <Button Content="Web (Edge)" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click_5"/>
+        <Button Content="Web (Firefox)" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.512,0.904" Click="Button_Click_6"/>
+        <Label Content="Web Browsers" HorizontalAlignment="Left" Margin="6,159,0,0" VerticalAlignment="Top" Height="25" Width="90" FontWeight="Medium"/>
+        <Label Content="Settings" HorizontalAlignment="Left" Margin="6,254,0,0" VerticalAlignment="Top" Height="27" Width="85" FontWeight="Medium"/>
+        <Button x:Name="appwiz" Content="App Wizard" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top" Width="81" Click="appwiz_Click_1"/>
+        <Button x:Name="datetime" Content="Date and Time" HorizontalAlignment="Left" Margin="10,301,0,0" VerticalAlignment="Top" Width="81" Click="datetime_Click"/>
+        <Button x:Name="devmgmt" Content="Device Manager" HorizontalAlignment="Left" Margin="100,39,0,0" VerticalAlignment="Top" Width="95" Click="devmgmt_Click"/>
+        <Button x:Name="display" Content="Display Settings" HorizontalAlignment="Left" Margin="100,64,0,0" VerticalAlignment="Top" Width="95" Click="display_Click"/>
+        <Button x:Name="firewall" Content="Firewall Settings" HorizontalAlignment="Left" Margin="100,89,0,0" VerticalAlignment="Top" Width="95" Click="firewall_Click"/>
+        <Button x:Name="internetO" Content="Internet Options" HorizontalAlignment="Left" Margin="100,114,0,0" VerticalAlignment="Top" Width="95" Click="internetO_Click"/>
+        <Button x:Name="gamecontrollers" Content="Game Controllers" HorizontalAlignment="Left" Margin="100,139,0,0" VerticalAlignment="Top" Width="95" Click="gamecontrollers_Click"/>
+        <Button x:Name="mousesettings" Content="Mouse Settings" HorizontalAlignment="Left" Margin="100,164,0,0" VerticalAlignment="Top" Width="95" Click="mousesettings_Click"/>
+        <Button x:Name="network" Content="Network Settings" HorizontalAlignment="Left" Margin="100,189,0,0" VerticalAlignment="Top" Width="95" Click="network_Click"/>
+        <Button x:Name="powercfg" Content="Power Options" HorizontalAlignment="Left" Margin="100,214,0,0" VerticalAlignment="Top" Width="95" Click="powercfg_Click"/>
+        <Button x:Name="regionO" Content="Region Options" HorizontalAlignment="Left" Margin="100,239,0,0" VerticalAlignment="Top" Width="95" Click="regionO_Click"/>
+        <Button x:Name="soundSettings" Content="Sound Settings" HorizontalAlignment="Left" Margin="100,264,0,0" VerticalAlignment="Top" Width="95" Click="soundSettings_Click"/>
+        <Button x:Name="sys_set" Content="System Settings" HorizontalAlignment="Left" Margin="100,289,0,0" VerticalAlignment="Top" Width="95" Height="32" Click="sys_set_Click"/>
+        <Button x:Name="locationIn" Content="Location Info" HorizontalAlignment="Left" Margin="200,89,0,0" VerticalAlignment="Top" Width="95" Click="locationIn_Click"/>
+        <Button x:Name="security" Content="Security" HorizontalAlignment="Left" Margin="200,64,0,0" VerticalAlignment="Top" Width="95" Click="security_Click"/>
+        <Button x:Name="bluetooth" Content="Bluetooth" HorizontalAlignment="Left" Margin="200,39,0,0" VerticalAlignment="Top" Width="95" Click="bluetooth_Click"/>
+        <Button Content="Policy Editor (PO)" HorizontalAlignment="Left" Margin="200,114,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click_7"/>
+        <Label Content="Computer Managment Tools (v1.0)" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="10"/>
+        <Button Content="Shutdown" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Click="Button_Click_8"/>
+        <Button Content="Restart" HorizontalAlignment="Left" Margin="73,0,0,10" VerticalAlignment="Bottom" Click="Button_Click_9"/>
+
+    </Grid>
+</Window>

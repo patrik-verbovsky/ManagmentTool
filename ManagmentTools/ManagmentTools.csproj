@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\icons8-administrative-tools-100.png" />
+    <None Remove="Icons\network-wired-solid.png" />
+    <None Remove="Icons\network-wired.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\icons8-administrative-tools-100.png" />
+    <Resource Include="Icons\network-wired-solid.png" />
+    <Resource Include="Icons\network-wired.png" />
+  </ItemGroup>
+
+</Project>
